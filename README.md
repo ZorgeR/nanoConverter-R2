@@ -1,4 +1,3 @@
 # nanoConverter-R2
 
-![alt tag](http://habrastorage.org/files/97d/881/1fb/97d8811fbbd84d80bcc6acfec7aecc14.png)
-![alt tag](http://habrastorage.org/files/b00/917/d9d/b00917d9dab74a0aa4e02bc7a4bd2f5a.png)
+![alt tag](http://habrastorage.org/files/069/a78/428/069a784285d5451081f4f81651c14183.png) ![alt tag](http://habrastorage.org/files/433/c09/df5/433c09df5493407da28b1780dcb6a107.png)
