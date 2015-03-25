@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <EditText
+            android:id="@+id/editText_FROM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="numberDecimal" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/imageButton_Rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/spacer"
+            android:contentDescription="rotate_button"
+            android:src="@drawable/ui_icon_rotate"
+            android:clickable="true"
+                />
+
+        <EditText
+            android:id="@+id/editText_TO"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="phone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@android:color/holo_blue_light">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/sv_from"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:fillViewport="false"
+            android:scrollbarThumbVertical="@drawable/scrollbar" >
+
+            <LinearLayout
+                android:id="@+id/sv_layout_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioGroup
+                    android:id="@+id/radioGroup_Main_FROM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="@android:color/holo_blue_light">
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/sv_to"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbarThumbVertical="@drawable/scrollbar"
+            android:verticalScrollbarPosition="left" >
+
+            <LinearLayout
+                android:id="@+id/sv_layout_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioGroup
+                    android:id="@+id/radioGroup_Main_TO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

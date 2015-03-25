@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="Deprecated" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="IconLocation" severity="informational" />
+    <issue id="UnusedNamespace" severity="informational" />
+    <issue id="UnusedResources" severity="ignore" />
+    <issue id="UselessParent" severity="ignore" />
+</lint>

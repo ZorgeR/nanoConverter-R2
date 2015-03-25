@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="themes_name">
+   <item>Holo Light</item>
+   <item>Holo Light - Stripe</item>
+   <item>Holo Light Dark Bar</item>
+   <item>Holo Light Dark Bar - Stripe</item>
+   <item>Holo Dark</item>
+   <item>Holo Dark - Stripe</item>
+   <item>NanoConverter - Glow</item>
+   <item>NanoConverter - Classic</item>
+</string-array>
+
+<string-array name="themes_ID">
+   <item>HoloLight</item>
+   <item>HoloLightStripe</item>
+   <item>HoloLightDarkBar</item>
+   <item>HoloLightDarkBarStripe</item>
+   <item>Holo</item>
+   <item>HoloStripe</item>
+   <item>NanoGlow</item>
+   <item>NanoClassic</item>
+</string-array>
+</resources>

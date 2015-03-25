@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="updates_name">
+        <item>Вручную</item>
+        <item>Авто</item>
+        <item>В фоновом режиме</item>
+        <item>Раз в день</item>
+    </string-array>
+</resources>

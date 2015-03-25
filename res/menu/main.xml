@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_update"
+          android:icon="@android:drawable/ic_menu_rotate"
+          android:title="@string/menu_update"
+          android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/menu_converter"
+          android:icon="@drawable/ui_icon_converter"
+          android:title="@string/menu_converter"
+          android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/menu_rates"
+          android:icon="@android:drawable/ic_menu_sort_by_size"
+          android:title="@string/menu_rates"
+          android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/menu_calculator"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:title="@string/menu_calculator" />
+    
+    <item android:id="@+id/menu_graph"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:title="@string/menu_graph" />
+    
+    <item android:id="@+id/menu_settings"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:title="@string/menu_settings" />
+
+    <item android:id="@+id/menu_about"
+          android:icon="@android:drawable/ic_menu_info_details"
+          android:title="@string/menu_about"
+          android:showAsAction="never"/>
+
+    <item android:id="@+id/menu_quit"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel"
+          android:title="@string/menu_quit"
+          android:showAsAction="never"/>
+</menu>

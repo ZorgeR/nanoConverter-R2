@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="valute_all_name">
+   <item>Австралийский Доллар</item>
+   <item>Азербайджанский Манат</item>
+   <item>Фунт Стерлингов</item>
+   <item>Армянские Драмы</item>
+   <item>Белорусские Рубли</item>
+   <item>Болгарский Лев</item>
+   <item>Бразильский Реал</item>
+   <item>Венгерский Форинт</item>
+   <item>Датская Крона</item>
+   <item>Доллар США</item>
+   <item>Евро</item>
+   <item>Индийские Рупии</item>
+   <item>Казахских Тенге</item>
+   <item>Канадский Доллар</item>
+   <item>Киргизский Сом</item>
+   <item>Китайский Юань</item>
+   <item>Латвийский Лат</item>
+   <item>Литовский Лит</item>
+   <item>Молдавский Лей</item>
+   <item>Норвежская Крона</item>
+   <item>Польский Злот</item>
+   <item>Новый Румынский лей</item>
+   <item>Российский Рубль</item>
+   <item>СДР (спец. права заим.)</item>
+   <item>Сингапурский Доллар</item>
+   <item>Таджикский Сомони</item>
+   <item>Турецкая Лира</item>
+   <item>Новый Туркменский Манат</item>
+   <item>Узбекский Сум</item>
+   <item>Украинская Гривна</item>
+   <item>Чешская Крона</item>
+   <item>Шведская Крона</item>
+   <item>Швейцарский Франк</item>
+   <item>Южноафриканский Рэнд</item>
+   <item>Вон Республики Корея</item>
+   <item>Японская Иена</item>
+   <item>Хорватская Куна</item>
+   <item>Гонконгский Доллар</item>
+   <item>Индонезийская Рупия</item>
+   <item>Израильский Шекель</item>
+   <item>Мексиканский Песо</item>
+   <item>Малайзийский Ринггит</item>
+   <item>Новозеландский Доллар</item>
+   <item>Филиппинский Песо</item>
+   <item>Таиландский Бат</item>
+</string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actions_name_results">
+        <item>Нажатие:\nкопировать в буфер обмена\nДолгое нажатие:\nпередать в калькулятор</item>
+        <item>Нажатие:\nпередать в калькулятор\nДолгое нажатие:\nкопировать в буфер обмена</item>
+    </string-array>
+    <string-array name="actions_name_listitem">
+        <item>Нажатие:\nУстановить валютой по-умолчанию</item>
+        <item>Долгое нажатие:\nУстановить валютой по-умолчанию</item>
+    </string-array>
+    <string-array name="actions_name_calcresults">
+        <item>Нажатие:\nкопировать в буфер обмена\nДолгое нажатие:\nпередать в конвертер</item>
+        <item>Нажатие:\nпередать в конвертер\nДолгое нажатие:\nкопировать в буфер обмена</item>
+    </string-array>
+</resources>

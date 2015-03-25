@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="app_name">nanoConverter</string>
+    
+    <string name="menu_update">Update</string>
+    <string name="menu_converter">Converter</string>
+    <string name="menu_rates">Rates</string>    
+    <string name="menu_calculator">Calculator</string>
+    <string name="menu_graph">Graph</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_about">About</string>
+    
+    <string name="title_nc_main">nanoConverter</string>
+    <string name="title_nc_preferences">Settings</string>
+
+    <string name="welcome_no_data">Press update button</string>
+    <string name="welcome_no_data_title">Oops! No data!</string>
+    <string name="welcome_button_next">Next</string>
+    <string name="welcome_text_hello">Welcome to</string>
+    <string name="welcome_text_lets_learn">Let\'s walk a little coaching!</string>
+    <string name="welcome_text_press_or_swipe">Press "Next" button, or swipe screen to the left.</string>
+    <string name="welcome_text_swipe">You can use swipe gesture for navigation in app.</string>
+    <string name="welcome_text_preference">You can choose in the preference:\n -source of rates\n -update schedule\n -default currency\n -and more.</string>
+    <string name="welcome_text_cant_see">If you don\'t see some currency,\nyou source is not provide information about it,\ntry another source.</string>
+    <string name="welcome_text_tap">Tap to the currency on rates page\nand it will set as default.</string>
+    <string name="welcome_text_done">Well done!</string>
+    <string name="welcome_text_update">Now press update, for download actual rates!</string>
+    <string name="welcome_button_update">Update!</string>
+
+    <string name="UI_update_done">Update done!</string>
+    <string name="UI_copy_done">Copied in clipboard!</string>
+
+    <string name="prefs_category_general">General</string>
+    <string name="prefs_category_visual">Visual</string>
+    <string name="prefs_category_other">Actions</string>
+    <string name="prefs_title_source">Sources</string>
+    <string name="prefs_title_inverse">Inverse</string>
+    <string name="prefs_title_themes">Themes</string>
+    <string name="prefs_title_currency">Currency</string>
+    <string name="prefs_title_defcurrency">Default currency</string>
+    <string name="prefs_title_reorder">Reorder</string>
+    <string name="prefs_title_listpress">Rates</string>
+    <string name="prefs_title_texttocalc">Result</string>
+    <string name="prefs_title_calcresults">Calculator</string>
+    <string name="prefs_title_updates">Updates</string>
+    <string name="prefs_summary_source">Select source of rates</string>
+    <string name="prefs_summary_inverse">Use inverse style of rates</string>
+    <string name="prefs_summary_themes">Visual style apply after app restart</string>
+    <string name="prefs_summary_currency">Only selected currency will be showed</string>
+    <string name="prefs_summary_defcurrency">Default currency will be equal 1.00</string>
+    <string name="prefs_summary_reorder">Reorder currency list</string>
+    <string name="prefs_summary_listpress">Action on list elements\nNeed app reload</string>
+    <string name="prefs_summary_texttocalc">Action on converter results\nneed app reload</string>
+    <string name="prefs_summary_calcresults">Action on calculator results\nneed app reload</string>
+    <string name="prefs_summary_updates">Updates schedule</string>
+
+    <string name="about_version">nanoConverter 0.1.4</string>
+    <string name="about_text">Flags icon:\n- http://www.gosquared.com\n\nHow to:\n- http://stackoverflow.com\n- http://habrahabr.ru\n\nThx:\n- jadis100, Ant-ON, ramallah, spardaev.\n\nWTFPL:\nDo What The Fuck You Want To Public License.</string>
+
+    <string name="turn_on">On</string>
+    <string name="turn_off">Off</string>
+
+
+</resources>

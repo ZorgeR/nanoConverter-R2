@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/rates_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/ratesID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textSize="18sp"
+                android:typeface="monospace" >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/ratesDESC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="24"
+                android:text="Description"
+                android:textSize="9sp"
+                android:typeface="monospace" >
+
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/ratesVALUE"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="VALUE"
+                android:typeface="monospace"
+                android:focusable="false" />
+
+            <ImageView
+                android:id="@+id/ratesFLAG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="14dp"
+                android:contentDescription="TOTO"
+                android:src="@android:drawable/ic_delete" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

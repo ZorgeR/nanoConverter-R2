@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actions_ID_listitem">
+        <item>Click</item>
+        <item>LongClick</item>
+    </string-array>
+    <string-array name="actions_ID_resultstext">
+        <item>CopySend</item>
+        <item>SendCopy</item>
+    </string-array>
+    <string-array name="actions_ID_calcresults">
+        <item>CopySend</item>
+        <item>SendCopy</item>
+    </string-array>
+    <string-array name="actions_name_results">
+        <item>Click:\ncopy to clipboard\nLong click:\nsend to calculator</item>
+        <item>Click:\nsend to calculator\nLong click:\ncopy to clipboard</item>
+    </string-array>
+    <string-array name="actions_name_listitem">
+        <item>Click:\nset as default currency</item>
+        <item>Long click:\nset as default currency</item>
+    </string-array>
+    <string-array name="actions_name_calcresults">
+        <item>Click:\ncopy to clipboard\nLong click:\nsend to converter</item>
+        <item>Click:\nsend to converter\nLong click:\ncopy to clipboard</item>
+    </string-array>
+</resources>

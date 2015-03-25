@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nanoconverter.zlab.TouchListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tlv="http://schemas.android.com/apk/res/com.nanoconverter.zlab"
+
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+        tlv:normal_height="48dip"
+        tlv:expanded_height="96dip"
+        tlv:grabber="@+id/icon"
+        tlv:remove_mode="none"
+        />
+

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" android:background="@drawable/bckgr_glow_repeat">
+
+    <EditText
+        android:id="@+id/calc_display"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:gravity="right|center_vertical"
+        android:textSize="32sp" android:textIsSelectable="false" android:focusable="false"
+        android:editable="false" android:clickable="false" android:inputType="number">
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical" android:id="@+id/calc_button">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp" >
+
+            <Button
+                android:id="@+id/b_clear"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="C"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_backspace"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="&lt;-"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp" >
+
+            <Button
+                android:id="@+id/b_7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="7"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="8"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="9"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_d"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="/"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp" >
+
+            <Button
+                android:id="@+id/b_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="5"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="6"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_u"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="*"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp" >
+
+            <Button
+                android:id="@+id/b_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="3"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_minus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="-"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp" >
+
+            <Button
+                android:id="@+id/b_dot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="."
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_equal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="="
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+            <Button
+                android:id="@+id/b_plus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="+"
+                android:textSize="32sp" android:onClick="CalcButtonClickHandler"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

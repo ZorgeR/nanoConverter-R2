@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name">nanoConverter</string>
+
+    <string name="menu_update">Обновить</string>
+    <string name="menu_converter">Конвертер</string>
+    <string name="menu_rates">Курсы</string>
+    <string name="menu_calculator">Калькулятор</string>
+    <string name="menu_graph">Графики</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_quit">Выход</string>
+    <string name="menu_about">О программе</string>
+
+    <string name="title_nc_main">nanoConverter</string>
+    <string name="title_nc_preferences">Настройки</string>
+
+    <string name="welcome_no_data">Нажмите кнопку Обновить</string>
+    <string name="welcome_no_data_title">Ой! Нет данных!</string>
+    <string name="welcome_button_next">Далее</string>
+    <string name="welcome_text_hello">Добро пожаловать</string>
+    <string name="welcome_text_lets_learn">Давайте пройдем небольшой курс!</string>
+    <string name="welcome_text_press_or_swipe">Нажмите "Далее", или проведите пальцем по экрану.</string>
+    <string name="welcome_text_swipe">В приложении вы также можете использовать для навигации движение пальцев или
+        кнопки.
+    </string>
+    <string name="welcome_text_preference">В настройка вы можете выбрать:\n -Источник курсов\n -Расписание обновлений\n
+        -Валюту по-умолчанию\n -многое другое.
+    </string>
+    <string name="welcome_text_cant_see">Если вы не видите какую то из валют,\nвероятно выбранный вами источник не
+        предоставляет информацию о ней,\nпопробуйте другой источник.
+    </string>
+    <string name="welcome_text_tap">Нажмите на валюту в списке курсов, чтобы увидеть другие валюты \nотносительно
+        выбранной.
+    </string>
+    <string name="welcome_text_done">Отлично!</string>
+    <string name="welcome_text_update">Теперь нажмите Обновить!, for download actual rates!</string>
+    <string name="welcome_button_update">Обновить!</string>
+
+    <string name="UI_update_done">Обновлено!</string>
+    <string name="UI_copy_done">Скопировано в буфер обмена!</string>
+
+    <string name="prefs_category_general">Основные</string>
+    <string name="prefs_category_visual">Внешний вид</string>
+    <string name="prefs_category_other">Поведение</string>
+    <string name="prefs_title_source">Источники</string>
+    <string name="prefs_title_inverse">Инверсно</string>
+    <string name="prefs_title_themes">Темы</string>
+    <string name="prefs_title_currency">Валюты</string>
+    <string name="prefs_title_defcurrency">Валюта по-умочанию</string>
+    <string name="prefs_title_reorder">Сортировка</string>
+    <string name="prefs_title_listpress">Курсы</string>
+    <string name="prefs_title_texttocalc">Результат</string>
+    <string name="prefs_title_calcresults">Калькулятор</string>
+    <string name="prefs_title_updates">Обновление</string>
+    <string name="prefs_summary_source">Выбрать источник курсов</string>
+    <string name="prefs_summary_inverse">Обратный стиль курсов</string>
+    <string name="prefs_summary_themes">Применяется после перезапуска</string>
+    <string name="prefs_summary_currency">Только выбранные валюты будут видны</string>
+    <string name="prefs_summary_defcurrency">Выбранная валюта будет равна 1.00</string>
+    <string name="prefs_summary_reorder">Задайте свою очередность валют</string>
+    <string name="prefs_summary_listpress">Поведение элементов списка курсов валют\nПрименяется после перезапуска</string>
+    <string name="prefs_summary_texttocalc">Поведение поля с результатом конвертера\nПрименяется после перезапуска</string>
+    <string name="prefs_summary_calcresults">Поведение поля с результатом калькулятора\nПрименяется после перезапуска</string>
+    <string name="prefs_summary_updates">Расписание обновлений</string>
+
+    <string name="turn_on">Вкл</string>
+    <string name="turn_off">Выкл</string>
+
+</resources>

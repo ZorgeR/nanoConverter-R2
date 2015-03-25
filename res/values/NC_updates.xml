@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="updates_ID">
+        <item>manual</item>
+        <item>auto</item>
+        <item>background</item>
+        <item>perday</item>
+    </string-array>
+    <string-array name="updates_name">
+        <item>Manual</item>
+        <item>Auto</item>
+        <item>In background</item>
+        <item>Once per day</item>
+    </string-array>
+</resources>

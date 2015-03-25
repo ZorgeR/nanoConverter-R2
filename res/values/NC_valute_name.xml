@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="valute_all_name">
+   <item>Australian Dollars</item>
+   <item>Azerbaijani Manat</item>
+   <item>Pounds</item>
+   <item>Armenian Drama</item>
+   <item>Belarusian Ruble</item>
+   <item>Bulgarian Lvy</item>
+   <item>Brazilian Reais</item>
+   <item>Hungarian Forint</item>
+   <item>Danish Crowns</item>
+   <item>U.S. Dollars</item>
+   <item>Euro</item>
+   <item>Indian Rupee</item>
+   <item>Kazakh Tenge</item>
+   <item>Canadian Dollars</item>
+   <item>Kyrgyz Soma</item>
+   <item>Chinese Yuan</item>
+   <item>Latvian Lats</item>
+   <item>Lithuanian Litas</item>
+   <item>Moldavian Lei</item>
+   <item>Norwegian Kroner</item>
+   <item>Poland Zloty</item>
+   <item>New Romanian Leu</item>
+   <item>Russian Ruble</item>
+   <item>Special Drawing Rights</item>
+   <item>Singapore Dollars</item>
+   <item>Tajik Somoni</item>
+   <item>Turkish Lira</item>
+   <item>New Turkmenistan Manat</item>
+   <item>Uzbek Soums</item>
+   <item>Ukrainian Hryvnia</item>
+   <item>Czech Crown</item>
+   <item>Swedish Krona</item>
+   <item>Swiss Franc</item>
+   <item>South African Rand</item>
+   <item>Won South Korea</item>
+   <item>Japanese Yen</item>
+   <item>Croatian Kuna</item>
+   <item>Hong Kong Dollar</item>
+   <item>Indonesian Rupiah</item>
+   <item>Israeli Shekel</item>
+   <item>Mexican Peso</item>
+   <item>Malaysian Ringgit</item>
+   <item>New Zealand Dollar</item>
+   <item>Philippine Peso</item>
+   <item>Thai Baht</item>
+</string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/prefs_category_general">
+        <ListPreference android:summary="@string/prefs_summary_source" android:title="@string/prefs_title_source" android:dialogTitle="@string/prefs_title_source" android:entries="@array/source_name" android:entryValues="@array/source_ID" android:key="prefs_source" android:defaultValue="CBR"/>
+        <ListPreference android:summary="@string/prefs_summary_updates" android:title="@string/prefs_title_updates" android:dialogTitle="@string/prefs_title_updates" android:entries="@array/updates_name" android:entryValues="@array/updates_ID" android:key="prefs_updates" android:defaultValue="manual"/>
+        <SwitchPreference android:summary="@string/prefs_summary_inverse" android:title="@string/prefs_title_inverse" android:key="prefs_inverse" android:defaultValue="false" android:switchTextOff="@string/turn_off" android:switchTextOn="@string/turn_on"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_category_visual">
+        <ListPreference android:summary="@string/prefs_summary_themes" android:title="@string/prefs_title_themes" android:entries="@array/themes_name" android:entryValues="@array/themes_ID" android:dialogTitle="@string/prefs_title_themes" android:key="prefs_theme" android:defaultValue="NanoGlow"/>
+        <MultiSelectListPreference android:summary="@string/prefs_summary_currency" android:title="@string/prefs_title_currency" android:entries="@array/valute_all_name" android:entryValues="@array/valute_all_ID" android:dialogTitle="@string/prefs_title_currency" android:key="prefs_currency_active" android:defaultValue="@array/valute_all_ID"/>
+        <ListPreference android:title="@string/prefs_title_defcurrency" android:entries="@array/valute_all_name" android:summary="@string/prefs_summary_defcurrency" android:dialogTitle="@string/prefs_title_defcurrency" android:entryValues="@array/valute_all_ID" android:key="prefs_currency_def" android:defaultValue="USD"/>
+        <PreferenceScreen android:title="@string/prefs_title_reorder" android:key="reorder" android:summary="@string/prefs_summary_reorder"></PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_category_other">
+        <ListPreference android:summary="@string/prefs_summary_texttocalc" android:title="@string/prefs_title_texttocalc" android:dialogTitle="@string/prefs_title_texttocalc" android:entries="@array/actions_name_results" android:entryValues="@array/actions_ID_resultstext" android:key="prefs_actions_sendresults" android:defaultValue="SendCopy"/>
+        <ListPreference android:summary="@string/prefs_summary_listpress" android:title="@string/prefs_title_listpress" android:dialogTitle="@string/prefs_title_listpress" android:entries="@array/actions_name_listitem" android:entryValues="@array/actions_ID_listitem" android:key="prefs_actions_listitem" android:defaultValue="LongClick"/>
+        <ListPreference android:summary="@string/prefs_summary_calcresults" android:title="@string/prefs_title_calcresults" android:dialogTitle="@string/prefs_title_calcresults" android:entries="@array/actions_name_calcresults" android:entryValues="@array/actions_ID_calcresults" android:key="prefs_actions_calcresults" android:defaultValue="SendCopy"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
